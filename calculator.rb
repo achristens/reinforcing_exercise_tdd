@@ -11,5 +11,5 @@ def subtract(a, b)
 end
 
 def sum(array)
-  array.inject(0){|sum,x| sum + x }
+  array.inject(0){ |sum,x| sum + x }
 end
