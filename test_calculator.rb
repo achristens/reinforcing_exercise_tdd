@@ -25,18 +25,22 @@ class TestCalculator < MiniTest::Test
 # sum takes an *array* of numbers and adds them all together
 # This one is a bit trickier!
   def test_computes_sum_of_empty_array
+    # skip
     assert_equal(0, sum([]))
   end
 
   def test_computes_sum_of_single_number
+    # skips
     assert_equal 7, sum([7])
   end
 
   def test_computes_sum_of_two_numbers
+    # skip
     assert_equal 18, sum([7, 11])
   end
 
   def test_computes_sum_of_many_numbers
+    # skip
     assert_equal 25, sum([1,3,5,7,9])
   end
 end
